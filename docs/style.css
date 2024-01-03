@@ -1,0 +1,299 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif, verdana;
+  padding: 30px;
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+p, li{
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+  color: orangered;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.mainTitle{
+  font-family: 'pacifico', 'lobster', 'cursive', sans-serif;
+  font-size: 70px;
+
+  letter-spacing: 5px;
+  text-align: center;
+  top: 20px;
+  position: relative;
+
+  margin-bottom: 0px;
+}
+
+.mainSubHead{
+  text-align: center;
+  top: 50px;
+  position: relative;
+  font-weight: lighter;
+  color: orangered;
+}
+
+nav#dot-nav {
+  position: fixed;
+  right: 20px;
+  top: 30px;
+  z-index: 1;
+}
+nav#dot-nav a {
+  border: 1px solid #121212;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  display: block;
+  margin: 10px;
+}
+nav#dot-nav a.active, nav#dot-nav a:first-child {
+  background: #121212;
+}
+
+
+
+.subhead{
+  color: #2d75fa;
+  font-weight: bold;
+}
+
+
+section{
+  position: relative;
+  top: 40px;
+  padding: 9% 10%;
+  margin: 0px 4%;
+}
+
+.darkPurple{
+  background-color:#181c63;
+  color: white;
+}
+
+.brightPurple{
+  background-color: #2018ba;
+  color: white;
+}
+
+.pink{
+  background-color: #edbbf0;
+  color: #1f2ca5;
+}
+
+.midBlue{
+  background-color: #185bd3;
+  color: white;
+}
+.midBlue a{
+  color: #fdad5c;
+  font-weight: bold;
+}
+
+.white{
+  background-color: white;
+  color: #181c63;
+}
+
+/*Dark Aqua*/
+.darkAqua{
+  background-color: #060f1c;
+  color: white;
+}
+
+.darkerBlue{
+  background-color: #0a0c17;
+}
+
+.darkestBlue{
+  background-color: #01030d;
+}
+
+.vid-container{
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+
+.vid-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+#comment{
+  text-align: right;
+}
+
+.statement{
+  text-align: center;
+  padding: 9% 14%;
+  font-size: 32px;
+}
+
+
+#projPurpose li{
+  margin-bottom: 30px;
+}
+
+#projPurpose p{
+  margin: 30px 0px;
+}
+
+
+#scansion{
+  margin-top: 5%;
+  font-family: monospace;
+  font-size: 1rem;
+  background-color: rgb(29, 30, 40);
+  color: white;
+  padding: 2%;
+}
+
+.scansion-text{
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+#writInstruct table, th, td {
+  border-style: none;
+  border-radius: 5px;
+}
+
+#writInstruct table{
+  width: max(300px, 100%);
+}
+
+
+.step{
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+
+#writInstruct td{
+  padding: 30px;
+  background-color: white;
+}
+
+
+.liSpace{
+  margin: 18px 0px;
+}
+
+#writInstruct th{
+  background-color: #181c63;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.rowHead{
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+.emphasis{
+  font-weight: bold;
+  text-align: center;
+  color: orangered;
+  padding: 40px;
+}
+
+#pitfalls tbody th{
+  width: 5%;
+}
+
+
+#exampleLine {
+  color: #91b9eb;
+}
+
+.runHeading{
+  text-align: center;
+}
+.warning{
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.authorsNote{
+  margin-top: 30px;
+}
+
+#pfp{
+  border-radius: 25%;
+  border: 10px solid white;
+}
+
+
+.flex-container{
+  display: flex;
+  align-items:center;
+  padding: 0px 5%;
+}
+
+#pfp{
+  width: 25%;
+}
+
+@media (max-width: 1000px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  #pfp{
+    width: 60%;
+  }
+  
+}
+
+.imgText .text{
+  padding: 5%;
+}
+
+.replit{
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .replit{
+    width: 500px;
+    height: 800px;
+    overflow: scroll;
+  }
+}
+
+
+
+
+footer{
+  position: relative;
+  margin-top: 5%;
+  background-color: #01030d;
+  padding: 3%;
+}
